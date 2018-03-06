@@ -1,6 +1,3 @@
-# verify ruby dependency
-verify_ruby 'F5 Plugin'
-
 # check required attributes
 verify_attributes do
   attributes [
