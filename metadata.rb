@@ -69,7 +69,7 @@ attribute 'newrelic/aws_cloudwatch/aws_secret_key',
 attribute 'newrelic/aws_cloudwatch/use_aws_metadata',
   :display_name => 'New Relic AWS Cloudwatch Plugin Use Instance Metadata',
   :description => 'Use Instance Metadata for New Relic AWS Cloudwatch Plugin',
-  :type => 'boolean',
+  :type => 'string',
   :required => 'optional',
   :recipes => ['newrelic_plugins::aws_cloudwatch']
 
